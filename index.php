@@ -195,16 +195,6 @@ if ($homepage && $homepage_url !== '/') {
             </div>
         </div>
 
-        <div class="homepage-content container-fluid">
-            <div class="container">
-                <div class="row">
-                    <div class="span10 offset1">
-                        <?php echo $page['html'];?>
-                    </div>
-                </div>
-            </div>
-        </div>
-
         <div class="hero-buttons container-fluid">
             <div class="container">
                 <div class="row">
@@ -225,6 +215,16 @@ if ($homepage && $homepage_url !== '/') {
                             View Documentation
                         </a>
                         <?php } ?>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="homepage-content container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="span10 offset1">
+                        <?php echo $page['html'];?>
                     </div>
                 </div>
             </div>
