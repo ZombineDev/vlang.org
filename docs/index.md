@@ -1,12 +1,12 @@
 <p class="lead">
 <strong>Vlang</strong> is an <a href="http://en.wikipedia.org/wiki/Domain-specific_language">Embedded Domain Specific Language</a> for Hardware Verification. Vlang is built on top of <a href="http://dlang.org/">D Programming Language</a>, and inherits D's programming strengths including C like syntax, automatic garbage collection, first class arrays, associative arrays, and many more. Vlang extends D with a sophisticated Constraint Solver, Discrete Event Simulator, and a complete port of Universal Verification Methodology. Vlang also interfaces seemlessly with Verilog, VHDL and SystemC. A feature comparison with other popular Verification Languages is available <a href="http://vlang.org/">here</a>. Vlang is a Free Opensource Software released under <a href="http://www.boost.org/LICENSE_1_0.txt">Boost Software License</a>.</p>
 
-<h2>Features of Vlang</h2>
+<h2>Language Features</h2>
 
 <p>On the contrary with the state of art verification languages which has decade old root, Vlang has been developed recently and thus it understand modern verification and simulation needs better. Vlang offers features which caters the need of a futuristic verification suit and test bench development. Inheriting clean and well designed syntax &amp; semantics, advanced object orientation, multicore programming features from D AND by implementing verification features &amp; UVM, Vlang brings in great value for any design verification engineer. A list of important features of Vlang has been enumerated as follows:</p>
 
 <ol>
-<li><h3><em>Multicore Support</em></h3>
+<li><h3>Multicore Support</h3>
 
 <p>With the increase in number of cores, speed of each core is no more increasing. In future there will be more and more cores possibly each of them with reduced speed. And with this your old good reuse model is no more scalable with your favorite simulator. Vlang provides and supports multiple levels of multicore concurrency to address the growing trend of multicore system usability. </p>
 
@@ -15,7 +15,7 @@
 <li><strong>Hierarchical Concurrency:</strong> Vlang offers hierarchical concurrency in which execution of different RootEntry are computed using parallel computing resulting faster simulation. By the virtue of this capability of Vlang, user can create as many simulator he/she wishes. </li>
 <li><strong>Language Level Concurrency:</strong> D offers powerful features on multicore concurrent computation which will benefit the development of test benches. Computationally heavy portion of the test bench and models can be made multi-threaded for faster execution. </li>
 </ul></li>
-<li><h3><em>Compatibility</em></h3>
+<li><h3>Compatibility with other Languages</h3>
 
 <p>Vlang is highly compatible with other languages commonly used in simulation and verification process.</p>
 
@@ -25,16 +25,16 @@
 <li><strong>VHDL:</strong> Vlang implements <a href="http://www.eda.org/VIUF_proc/Fall96/DUNLOP96A.PDF">VHPI</a> interface of VHDL Standard and hence VHDL models can be integrated seamlessly with Vlang. </li>
 <li><strong>MATLAB:</strong> Golden models written in <a href="http://en.wikipedia.org/wiki/MATLAB">MATLAB</a> can be seamlessly integrated with Vlang through matlab-mex interfaces.</li>
 </ul></li>
-<li><h3><em>Constrained Randomization and Other Features</em></h3>
+<li><h3>Constrained Randomization and Other Features</h3>
 
 <p>Vlang implements a very powerful and sophisticated <a href="http://en.wikipedia.org/wiki/Binary_decision_diagram">BDD</a> based Constrained Randomization engine. Commonly encountered features of other verification languages like pre randomization, post randomization, random arrays et. al. are supported. The lightweight nature of Vlang implementation make the constrained randomization process lightning fast. Other important verification features like processes, routines, fork-join, events &amp; notifications, ports &amp; channels, lightweight data-types (added to D's rich native data-types), hierarchical test benches et. al. comes naturally with Vlang.</p></li>
-<li><h3><em>UVM Implementation</em></h3>
+<li><h3>UVM Implementation</h3>
 
 <p>Vlang implements a word-to-word translation of SystemVerilog <a href="http://en.wikipedia.org/wiki/Universal_Verification_Methodology">UVM</a> version 1.1d in order to provide an access to existing use models. The UVM port of Vlang is completely concurrent to provide lightning fast simulation speed. Vlang aspires to augment the UVM implementation with Standard Template Models (STM) in future.</p></li>
-<li><h3><em>Efficiency</em></h3>
+<li><h3>Efficiency</h3>
 
 <p>Vlang takes the advantage of D compiler's lightning fast compilation feature. The test bench compiles and elaborates in seconds for complex test benches. This leads to a drastic reduction in verification time in comparison to the verification time lost on compilation &amp; elaboration with state of the art verification languages. Lightweight nature of Vlang makes simulation task lightning fast when it is compared to other languages.</p></li>
-<li><h3><em>Opensource License</em></h3>
+<li><h3>Opensource License</h3>
 
 <p>The core language part of Vlang (known as ESDL) is released under Boost Software License and the UVM part of Vlang is released under Apache 2.0 License. This means the source code is available with you and you can modify and distribute it without have to share the source code. The licensing strategy of Vlang is academia fiendly and industry productive. The open source nature of Vlang  is an outlook of developers through which the aspiration is to promote further verification language research.</p></li>
 </ol>
