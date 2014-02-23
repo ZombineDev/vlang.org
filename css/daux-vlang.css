@@ -197,7 +197,7 @@ textarea {
 }
 body {
   margin: 0;
-  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 20px;
   color: #333333;
@@ -1204,7 +1204,7 @@ input,
 button,
 select,
 textarea {
-  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 label {
   display: block;
@@ -3534,7 +3534,7 @@ input[type="submit"].btn.btn-mini {
 .navbar-search .search-query {
   margin-bottom: 0;
   padding: 4px 14px;
-  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 13px;
   font-weight: normal;
   line-height: 1;
@@ -6289,7 +6289,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Open Slab Condensed', 'Roboto Slab', serif;
   font-weight: bold;
 }
 pre {
@@ -6317,8 +6317,8 @@ Homepage
   }
 }
 .homepage-hero .text-center {
-  font-family: 'Roboto Slab', serif;
-  font-weight: 700;
+  font-family: "Open Sans Condensed", 'Roboto Slab', serif;
+  font-weight: 200;
   margin: 0px 0px;
 }
 .homepage-hero h2 {
@@ -6329,8 +6329,8 @@ Homepage
   background-color: #c5c5cb;
 }
 .hero-buttons.container-fluid .btn-hero.btn {
-  font-family: 'Roboto Slab', serif;
-  font-weight: 700;
+  font-family: "Open Sans Condensed", 'Roboto Slab', serif;
+  font-weight: 200;
   padding: 20px 30px;
   background-image: none;
   -ms-filter: none;
@@ -6380,8 +6380,8 @@ Homepage
   padding: 40px 0px;
 }
 .homepage-content.container-fluid .lead {
-  font-family: 'Roboto Slab', serif;
-  font-weight: 400;
+  font-family: "Open Sans Condensed", 'Roboto Slab', serif;
+  font-weight: 100;
 }
 .homepage-content.container-fluid ul,
 .homepage-content.container-fluid ol {
@@ -6432,8 +6432,8 @@ Homepage
   list-style: none;
 }
 .homepage-footer.container-fluid .footer-nav li a {
-  font-family: 'Roboto Slab', serif;
-  font-weight: 700;
+  font-family: "Open Sans Condensed", 'Roboto Slab', serif;
+  font-weight: 200;
   font-size: 14px;
   line-height: 32px;
 }
@@ -6647,8 +6647,8 @@ code {
 .navbar .navbar-inner .brand {
   color: #628e9d;
   text-shadow: none;
-  font-family: 'Roboto Slab', serif;
-  font-weight: 700;
+  font-family: "Open Sans Condensed", 'Roboto Slab', serif;
+  font-weight: 200;
 }
 .navbar .navbar-inner .navbar-text {
   color: #7f7f7f;
@@ -6684,8 +6684,8 @@ code {
 .nav.nav-list li a {
   margin: 0px;
   padding: 6px 15px;
-  font-family: 'Roboto Slab', serif;
-  font-weight: 400;
+  font-family: "Open Sans Condensed", 'Roboto Slab', serif;
+  font-weight: 100;
   color: #3f4657;
   font-size: 15px;
   text-shadow: none;
@@ -6707,7 +6707,7 @@ code {
   margin-left: 15px;
 }
 .nav.nav-list li ul li a {
-  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: normal;
   line-height: 20px;
@@ -6997,8 +6997,8 @@ table tr td:last-child {
 }
 .well.well-sidebar a {
   font-size: 13px;
-  font-family: 'Roboto Slab', serif;
-  font-weight: 400;
+  font-family: "Open Sans Condensed", 'Roboto Slab', serif;
+  font-weight: 100;
   color: #628e9d;
   line-height: 28px;
 }
