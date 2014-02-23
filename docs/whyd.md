@@ -109,3 +109,10 @@ How many of you have not went through standard C++ Coding guidelines?
 * There were known gotchas which were bugs and got fixed gradually, like *enum a = [0, 1, 2]*
 * You might consider something as gotchas due to language migration, like slices behavior, floating point, etc
 
+
+```D
+void main() {
+  import std.stdio: writeln;
+  writeln("Hello World");
+}
+```
