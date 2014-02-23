@@ -121,6 +121,7 @@
          url('web-fonts/opensans_italic_macroman/OpenSans-Italic-webfont.ttf') format('truetype'),
          url('web-fonts/opensans_italic_macroman/OpenSans-Italic-webfont.svg#open_sansitalic') format('svg');
     font-weight: 200;
+    font-weight: normal;
     font-style: italic;
 
 }
@@ -163,6 +164,7 @@
          url('web-fonts/opensans_regular_macroman/OpenSans-Regular-webfont.ttf') format('truetype'),
          url('web-fonts/opensans_regular_macroman/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
     font-weight: 200;
+    font-weight: normal;
     font-style: normal;
 
 }
