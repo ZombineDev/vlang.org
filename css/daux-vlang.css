@@ -6289,7 +6289,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Open Sans Condensed', 'Roboto Slab', serif;
+  font-family: "Roboto Slab", "Bitter", serif;
   font-weight: bold;
 }
 pre {
@@ -6317,8 +6317,8 @@ Homepage
   }
 }
 .homepage-hero .text-center {
-  font-family: "Open Sans Condensed", 'Roboto Slab', serif;
-  font-weight: 200;
+  font-family: "Roboto Slab", "Bitter", serif;
+  font-weight: 700;
   margin: 0px 0px;
 }
 .homepage-hero h2 {
@@ -6329,8 +6329,8 @@ Homepage
   background-color: #c5c5cb;
 }
 .hero-buttons.container-fluid .btn-hero.btn {
-  font-family: "Open Sans Condensed", 'Roboto Slab', serif;
-  font-weight: 200;
+  font-family: "Roboto Slab", "Bitter", serif;
+  font-weight: 700;
   padding: 20px 30px;
   background-image: none;
   -ms-filter: none;
@@ -6380,8 +6380,8 @@ Homepage
   padding: 40px 0px;
 }
 .homepage-content.container-fluid .lead {
-  font-family: "Open Sans Condensed", 'Roboto Slab', serif;
-  font-weight: 100;
+  font-family: "Roboto Slab", "Bitter", serif;
+  font-weight: 400;
 }
 .homepage-content.container-fluid ul,
 .homepage-content.container-fluid ol {
@@ -6432,8 +6432,8 @@ Homepage
   list-style: none;
 }
 .homepage-footer.container-fluid .footer-nav li a {
-  font-family: "Open Sans Condensed", 'Roboto Slab', serif;
-  font-weight: 200;
+  font-family: "Roboto Slab", "Bitter", serif;
+  font-weight: 700;
   font-size: 14px;
   line-height: 32px;
 }
@@ -6647,8 +6647,8 @@ code {
 .navbar .navbar-inner .brand {
   color: #628e9d;
   text-shadow: none;
-  font-family: "Open Sans Condensed", 'Roboto Slab', serif;
-  font-weight: 200;
+  font-family: "Roboto Slab", "Bitter", serif;
+  font-weight: 700;
 }
 .navbar .navbar-inner .navbar-text {
   color: #7f7f7f;
@@ -6684,8 +6684,8 @@ code {
 .nav.nav-list li a {
   margin: 0px;
   padding: 6px 15px;
-  font-family: "Open Sans Condensed", 'Roboto Slab', serif;
-  font-weight: 100;
+  font-family: "Roboto Slab", "Bitter", serif;
+  font-weight: 400;
   color: #3f4657;
   font-size: 15px;
   text-shadow: none;
@@ -6997,8 +6997,8 @@ table tr td:last-child {
 }
 .well.well-sidebar a {
   font-size: 13px;
-  font-family: "Open Sans Condensed", 'Roboto Slab', serif;
-  font-weight: 100;
+  font-family: "Roboto Slab", "Bitter", serif;
+  font-weight: 400;
   color: #628e9d;
   line-height: 28px;
 }
