@@ -28,5 +28,5 @@ Alternatively, the end-user may just provide an integer to specify time. When th
   alu.pipe.doneEvent.notify(4);
 ```
 
-Here the doneEvent object in alu.pipe hierarchy would get notified in 4 timeUnits, and the timeUnit associated with alu.pipe would apply.
+Here the doneEvent object in alu.pipe hierarchy would get notified in 4 timeUnits.
 
