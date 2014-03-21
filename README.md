@@ -15,6 +15,7 @@
 * Git/SVN Friendly
 * Supports Google Analytics and Piwik Analytics
 * Optional code float layout
+* Static Output Generation
 
 ## Demos
 
@@ -87,7 +88,7 @@ Change the title bar in the docs
 ```
 
 ###Docs Path:
-If you'd prefer to keep your docs outside of the Daux.io directory, you can provide the filepath. 
+If you'd prefer to keep your docs outside of the Daux.io directory, you can provide the filepath.
 
 Note: Your `config.json` file will need to remain in `/daux.io/docs`.
 
@@ -133,11 +134,19 @@ To create a custom color scheme, set the `theme` property to `custom` and then d
 ```
 
 ###Code Floating:
-By deafult your code blocks will be floated to a column on the right side of your content. To disable this feature, set the `float` property to `false`.
+By default your code blocks will be floated to a column on the right side of your content. To disable this feature, set the `float` property to `false`.
 
 ```json
 {
 	"float": false
+}
+```
+###Toggling Code Blocks
+Some users might wish to hide the code blocks & view just the documentation. By setting the `toggle_code` property to `true`, you can offer a toggle button on the page.
+
+```json
+{
+	"toggle_code": true
 }
 ```
 
@@ -170,6 +179,17 @@ Include custom links in the sidebar.
 		"Help/Support/Bugs": "https://github.com/justinwalsh/daux.io/issues",
 		"Made by Todaymade": "http://todaymade.com"
 	}
+}
+```
+
+###File editor:
+![File editor](https://f.cloud.github.com/assets/1788727/1954191/44358884-81d1-11e3-859d-254b9fb81808.png)
+
+Enable front-end Markdown editor. _Disabled by default_.
+
+```json
+{
+	"file_editor": true
 }
 ```
 
@@ -226,7 +246,7 @@ By default, daux.io will display the last modified time as reported by the syste
 ```json
 {
 	"date_modified": false
-} 
+}
 ```
 
 ###Timezone
@@ -288,6 +308,23 @@ The Grunt.js task uses the built in web server in PHP 5.4 to host the docs on yo
 
 This project contains a package.json file, so once you have the requirements installed, you can simply run a `npm install` and then `grunt` in the projects folder to start the local web server. By default the server will run at: <a href="http://localhost:8085" target="_blank">http://localhost:8085</a>
 
+## Generating a set of static files
+
+These can be uploaded to a static site hosting service such as pages.github.com
+
+Generating a complete set of pages, with navigation
+
+```bash
+php index.php generate
+```
+
+You can optionally pass the location of config.json and (also optionally) the output directory for the static file
+
+```bash
+php index.php generate '\path\to\config.json' 'out\dir'
+```
+If the directory has a '\' at the beginning, it is treated as an absolute path, otherwise as relative to the Daux Directory.
+
 ## Running on IIS
 
 If you have set up a local or remote IIS web site, you may need a `web.config` with:
@@ -300,7 +337,7 @@ If you have set up a local or remote IIS web site, you may need a `web.config` w
 The `web.config` needs an entry for `<rewrite>` under `<system.webServer>`:
 
 ```xml
-<configuration> 
+<configuration>
 	<system.webServer>
 		<rewrite>
 			<rules>
