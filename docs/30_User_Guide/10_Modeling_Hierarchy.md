@@ -5,7 +5,7 @@ Hierarchy is useful for taming system complexity. All modern Hardware and softwa
 
 In Vlang hierarchy is all prevaiding. All user-level *Structural Constructs* are hierarchical. Each construct whether statically or dynamically instantiated knows its parent.
 
-![Hierarchy in Vlang](img/hierarchy.png "Hierarchy in Vlang")
+![Hierarchy in Vlang](../img/hierarchy.png "Hierarchy in Vlang")
 
 Static Hierarchy (and Elaboration)
 ================
