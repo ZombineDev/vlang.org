@@ -54,28 +54,3 @@
 <p>Vlang is open source which means your internal design verification team can build a superset on the top of it. The Boost License allows you to share binary-only version to your customer. If you are a heavy UVM user, Vlang provides a word-to-word translated SV UVM which is multicore enabled resulting in a much more faster speed in comparison to SV UVM. The constrained random solver in Vlang instantiates many copies of BDD runnng on seperate threads making it lightening fast. The open source nature of Vlang encourages it to be researched in academia and used in industrial productivity environment as well. In near future, models and methodologies written on Vlang will be scalable with the increase in number of processor cores due to Vlang's concurrency feature. D compiler takes care of performance enhancement of dirty codes and hence no need of code review/management and coding guidelines.</p>
 
 <h2>Vlang and You</h2>
-
-<p>Vlang has been designed by verification engineers like you and hence solves problems which you encounter. Being an engineers language Vlang maintain an open door policy for it's user. The priority will be given to immediate need for future visions for solving engineering problems.</p>
-
-<ul>
-<li><strong><em>Academia:</em></strong> If you are an academician, vlang offers you an unique opportunity to make use of an existing open source verification language and extend your ideas of future of verification. Vlang also offer you an opportunity for device out novel tools which can accompany Vlang based verification. Vlang allow your students to keep a personal copy of the source code which makes both computer science and electrical engineering teaching easy.</li>
-<li><strong><em>VLSI Design House:</em></strong> If you are a corporate design-verification house, Vlang offers you unique opportunity to reduce your EDA cost, meet you time to market through, faster verification runs, employment of less espensive resources. Vlang also offers you opportunity to distribute your test bech without distributing sources to your customers. Recipient also does not need to purchase expensive licenses.</li>
-<li><strong><em>Small EDA House:</em></strong> If you are small EDA house, supporting Vlang allows you to sell your old good verilog-2005 simulator with added advantage of advanced verification language support.</li>
-</ul>
-</p>
-
-<!-- Google Code -->
-<script type="text/javascript">
-/* <![CDATA[ */
-var google_conversion_id = 983836026;
-var google_custom_params = window.google_tag_params;
-var google_remarketing_only = true;
-/* ]]> */
-</script>
-<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
-</script>
-<noscript>
-<div style="display:inline;">
-<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/983836026/?value=0&amp;guid=ON&amp;script=0"/>
-</div>
-</noscript>

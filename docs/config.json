@@ -1,11 +1,12 @@
 {
-    "title": "Opensource Verification Language, Vlang",
+    "title": "Vlang",
     "logo": "<img src=/img/vlang-logo.png>",
-    "tagline": "",
+    "tagline": "Open Source Verification Language",
     "docs_path": "docs",
-    // the next one is a proprietory image, so we keep it away from the repo
     "image": "http://verlang.org/media/images/synch_fall.png",
     "theme": "vlang",
+    "template":"default",
+    "toggle_code": true,
     "date_modified": true,
     "repo": "coverify/vlang",
     "twitter": ["v_lang", "coverify"],
